@@ -1,5 +1,11 @@
 XeleTools by Henrique Gogó <henriquegogo@gmail.com>, 2021.
 
+Some X11 tools for lightweight window managers
+
+Current status:
+
+  WIP. Some features but a lot of bugs.
+
 License:
 
   MIT
