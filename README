@@ -6,6 +6,16 @@ Current status:
 
   WIP. Some features but a lot of bugs.
 
+ewmh-support:
+
+  Force EWMH Atom messages even for non-ewmh-compilant WMs
+
+visible-windows:
+
+  List all visible windows titles.
+  If some title is passed as argument, that window will be focused.
+  Ex.: visible-windows $(visible-windows | dmenu)
+
 License:
 
   MIT
