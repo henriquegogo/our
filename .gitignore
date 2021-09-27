@@ -52,5 +52,5 @@ Mkfile.old
 dkms.conf
 
 # Binary
+focuswin
 ewmh-support
-visible-windows

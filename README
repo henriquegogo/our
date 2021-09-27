@@ -2,19 +2,16 @@ XeleTools by Henrique Gogó <henriquegogo@gmail.com>, 2021.
 
 Some X11 tools for lightweight window managers
 
-Current status:
+focuswin:
 
-  WIP. Some features but a lot of bugs.
+  List all visible windows titles.
+  If some title is passed as pipe, that window will be focused.
+  Ex.: focuswin | dmenu | focuswin
 
 ewmh-support:
 
   Force EWMH Atom messages even for non-ewmh-compilant WMs
-
-visible-windows:
-
-  List all visible windows titles.
-  If some title is passed as argument, that window will be focused.
-  Ex.: visible-windows $(visible-windows | dmenu)
+  Current status: WIP
 
 License:
 
