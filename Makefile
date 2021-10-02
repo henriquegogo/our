@@ -1,23 +1,23 @@
 BINDIR?=/usr/bin
 CFLAGS?=-Wpedantic -Wall -Wextra
 
-all: focuswin
+all: ourwin
 
-ewmh:
-	$(CC) $(CFLAGS) ewmh-support.c -lX11 -o ewmh-support
+ourewmh:
+	$(CC) $(CFLAGS) ourewmh.c -lX11 -o ourewmh
 
-focuswin:
-	$(CC) $(CFLAGS)	focuswin.c -lX11 -o focuswin
+ourwin:
+	$(CC) $(CFLAGS)	ourwin.c -lX11 -o ourwin
 
 install:
 	install -d ${BINDIR}
-	install -m 755 ewmh-support ${BINDIR}
-	install -m 755 focuswin ${BINDIR}
+	install -m 755 ourewmh ${BINDIR}
+	install -m 755 ourwin ${BINDIR}
 
 uninstall:
-	rm ${BINDIR}/ewmh-support
-	rm ${BINDIR}/focuswin
+	rm ${BINDIR}/ourewmh
+	rm ${BINDIR}/ourwin
 		
 clean:
-	rm ewmh-support
-	rm focuswin
+	rm ourewmh
+	rm ourwin

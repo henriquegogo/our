@@ -1,14 +1,14 @@
-XeleTools by Henrique Gogó <henriquegogo@gmail.com>, 2021.
+OUR by Henrique Gogó <henriquegogo@gmail.com>, 2021.
 
-Some X11 tools for lightweight window managers
+Optional Utilities Resources - Some X11 tools
 
-focuswin:
+ourwin:
 
   List all visible windows titles.
   If some title is passed as pipe, that window will be focused.
-  Ex.: focuswin | dmenu | focuswin
+  Ex.: ourwin | dmenu | ourwin
 
-ewmh-support:
+ourewmh:
 
   Force EWMH Atom messages even for non-ewmh-compilant WMs
   Current status: WIP

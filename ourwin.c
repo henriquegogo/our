@@ -1,4 +1,4 @@
-/* XeleTools by Henrique Gogó <henriquegogo@gmail.com>, 2021.
+/* OUR by Henrique Gogó <henriquegogo@gmail.com>, 2021.
  * MIT License */
 
 #include <X11/Xlib.h>
